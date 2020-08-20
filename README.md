@@ -75,16 +75,15 @@
 
 
 # Point of Interest
-
 ![Post Man](readme/PostMan.png)
-* 정보마루의 공공 API를 이용하여 도서관의 정보를 코드화 하여 DB에 입력하였다.
+* 정보나루의 공공 API를 이용하여 도서관의 정보를 코드화 하여 DB에 입력하였다.
 ![A P I Library Code](readme/APILibraryCode.png)
 
 
 * 오류가 있는 책의 정보를 API화 하여 방출하였다. 이를 통해 중앙도서관에서 오류가 난 책들의 정보를 쉽게 확인 할 수 있도록 하였다.
 * ![Error A P I](readme/ErrorAPI.png)
 
-* 정보마루의 API를 이용하여 DB에 도서의 표지를 저장하지 않고 상세정보를 통해 도서를 검색할 때 표지 이미지를 불러온다.
+* 정보나루의 API를 이용하여 DB에 도서의 표지를 저장하지 않고 상세정보를 통해 도서를 검색할 때 표지 이미지를 불러온다.
 * ![Book Cover](readme/BookCover.png)
 
 
@@ -100,7 +99,7 @@
 ![C S V Code](readme/CSVCode.png)
 
 ### 해결방안
- * 정보마루에서 제공하는 도서관별 Excel데이터를 Visual Studio에 연결한 뒤 ExcelDataReader 패키지를 이용하여 
+ * 정보나루에서 제공하는 도서관별 Excel데이터를 Visual Studio에 연결한 뒤 ExcelDataReader 패키지를 이용하여 
  *데이터를 DB에 연결하게끔 코드를 작성하였다.
 ![Book And Holding List](readme/BookAndHoldingList.png)
 
@@ -109,7 +108,7 @@
 
 
 #### DB는 아래 링크를 통해 다운로드 가능.
-
+https://www.data4library.kr/openDataL
 
 
 
